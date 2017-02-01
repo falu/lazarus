@@ -60,8 +60,8 @@ begin
     w := 0;
     for r := 0 to SG.RowCount - 1 do
     begin
-      if length(SG.Cells[c, r]) > w then
-        w := length(SG.Cells[c, r]);
+      if utf8length(SG.Cells[c, r]) > w then
+        w := utf8length(SG.Cells[c, r]);
     end;
     if w < 3 then
       w := 3;
