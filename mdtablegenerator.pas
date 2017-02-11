@@ -1,4 +1,4 @@
-{ <description>
+{ mdtablegenerator
 
   Copyright (C) 2017 Falu https://github.com/falu
 
